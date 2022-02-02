@@ -1,0 +1,30 @@
+{
+  "name": "task_manager_app",
+  "version": "1.0.0",
+  "description": "task handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matabaroAthy/Task_manager_app.git"
+  },
+  "keywords": [
+    "task",
+    "management"
+  ],
+  "author": "Athanase Matabaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matabaroAthy/Task_manager_app/issues"
+  },
+  "homepage": "https://github.com/matabaroAthy/Task_manager_app#readme",
+  "dependencies": {
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.10",
+    "nodemon": "^2.0.15"
+  }
+}
