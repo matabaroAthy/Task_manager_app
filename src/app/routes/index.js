@@ -11,7 +11,7 @@ const {
 
 const router = Router();
 
-router.route(`${separator}`).get(get_all_tasks).get(get_single_task);
-router.route(`${separator}:id`).post(create_task).patch(update_task).delete(delete_task);
+router.route(`${separator}`).get(get_all_tasks).post(create_task);
+router.route(`${separator}:id`).get(get_single_task).patch(update_task).delete(delete_task);
  
 module.exports = router;
