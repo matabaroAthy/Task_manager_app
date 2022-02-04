@@ -8,10 +8,12 @@ const api_version = process.env.API_VERSION;
 //middlware 
 app.use(express.json());
 
+
 //routes
 app.get('/hello', (req, res) => {
     res.send('Task Manager App');
 })
+
 
 app.use(`/${api_version}/tasks`,routes);
 
